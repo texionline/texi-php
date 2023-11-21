@@ -17,7 +17,7 @@ composer require texionline/texi-php
 require_once('path/to/texi.php');
 
 // Set up your API key and other configurations
-$api_key = 'YOUR_API_KEY';
+$apikey = 'YOUR_API_KEY';
 $recipient = 'PHONE_NUMBER';
 $message = 'Your SMS message here';
 
@@ -29,12 +29,12 @@ Make sure to replace 'YOUR_API_KEY', 'PHONE_NUMBER', and 'Your SMS message here'
 
 ## API Reference
 
-`texi($baseUrl, $apiKey, $recipient, $message)`
+`texi($base_url, $apikey, $recipient, $message)`
 
 Sends an SMS using the TexiOnline API.
 
-* $baseUrl: The base URL for the TexiOnline API.
-* $apiKey: Your TexiOnline API key.
+* $base_url: The base URL for the TexiOnline API.
+* $apikey: Your TexiOnline API key.
 * $recipient: The phone number of the SMS recipient.
 * $message: The content of the SMS message to be sent.
 

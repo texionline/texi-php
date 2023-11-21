@@ -1,0 +1,12 @@
+{
+  "name": "texionline/texi-php",
+  "description": "Texi PHP Library for integrating with TexiOnline SMS service",
+  "type": "library",
+  "keywords": [
+    "texi",
+    "sms",
+    "php",
+    "library"
+  ],
+  "license": "MIT"
+}

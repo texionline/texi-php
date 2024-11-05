@@ -14,7 +14,8 @@ composer require texionline/texi-php
 
 ```php
 // Include the Texi PHP library
-require_once('vendor/texionline/texi-php/Texi.php');
+require_once('vendor/autoload.php');
+// or require_once('vendor/texionline/texi-php/Texi.php');
 
 // Set up your API key and other configurations
 $apikey = 'YOUR_API_KEY';

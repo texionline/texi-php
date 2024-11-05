@@ -33,10 +33,10 @@ Make sure to replace 'YOUR_API_KEY', 'PHONE_NUMBER', and 'Your SMS message here'
 
 Sends an SMS using the TexiOnline API.
 
-* $base_url: The base URL for the TexiOnline API.
-* $apikey: Your TexiOnline API key.
-* $recipient: The phone number of the SMS recipient.
-* $message: The content of the SMS message to be sent.
+- $base_url: The base URL for the TexiOnline API.
+- $apikey: Your TexiOnline API key.
+- $recipient: The phone number of the SMS recipient.
+- $message: The content of the SMS message to be sent.
 
 ## Contributing
 
